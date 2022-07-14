@@ -49,6 +49,8 @@ begin
 			where c.acctid = @mAcctId  and c.BrkprdId =@mBpid 
 			) X
 			order by x.AllocClassNm 
+			
+			select 1
 		end
 		if @moption = 2
 		begin
