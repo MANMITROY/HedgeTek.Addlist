@@ -49,7 +49,7 @@ begin
 			) X
 			order by x.AllocClassNm 
 
-select 5
+select 6
 		end
 		if @moption = 2
 		begin
