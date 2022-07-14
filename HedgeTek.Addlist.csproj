@@ -117,6 +117,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="dbo.sp_getcarveouttranextdata.prc" />
     <None Include="dbo.S_GetTrnchData.PRC" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
